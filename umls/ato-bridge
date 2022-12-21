@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-21T14:14:59.257Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="K-qE2_9GJjKmodoIZOxI" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-21T14:17:11.107Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="kyedQay4JpKoe7KTSurA" version="20.7.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1093" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,8 +10,20 @@
         <mxCell id="yRgqjqFW9dPkbrbatlf3-0" value="以太坊用户购买ATO开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="230" y="180" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="yRgqjqFW9dPkbrbatlf3-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yRgqjqFW9dPkbrbatlf3-1" target="yRgqjqFW9dPkbrbatlf3-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="yRgqjqFW9dPkbrbatlf3-1" value="交互UI输入USDT/USDC币种数量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="230" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yRgqjqFW9dPkbrbatlf3-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yRgqjqFW9dPkbrbatlf3-3" target="yRgqjqFW9dPkbrbatlf3-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yRgqjqFW9dPkbrbatlf3-3" value="计算可以获得多少ATO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yRgqjqFW9dPkbrbatlf3-5" value="将稳定币存入网桥合约中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="640" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
