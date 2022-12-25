@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-25T03:30:58.243Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="q8yYcQxzULJNdjJn7wkP" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-25T23:45:59.124Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="-cRemWJ34Xen2-jO4bhc" version="20.7.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1093" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -68,8 +68,8 @@
         <mxCell id="yRgqjqFW9dPkbrbatlf3-20" value="cross_token(contract_addr,balance) # 跨链一部分资产过去，这会生成一个cross_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="560" y="585" width="510" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yRgqjqFW9dPkbrbatlf3-22" value="cross_count # 用来标记跨链交易的数量&lt;br&gt;cross_ids(cid,owner) # 跨链交易的列表&lt;br&gt;lock_cids(cid) # 标记为锁定状态的id，这些id不能取现" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="600" y="690" width="330" height="60" as="geometry" />
+        <mxCell id="yRgqjqFW9dPkbrbatlf3-22" value="cross_count # 用来标记跨链交易的数量&lt;br&gt;cross_ids(cid,token_id,owner,balance) # 跨链交易的列表&lt;br&gt;lock_cids(cid) # 标记为锁定状态的id，这些id不能取现" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="600" y="690" width="460" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
