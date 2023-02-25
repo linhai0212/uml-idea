@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-25T03:30:23.592Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="21fEmnpypgh24VuIn10v" version="20.8.21" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-25T03:30:35.049Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Ha1_7nSBzFAAtyYN7a14" version="20.8.21" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1093" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -45,8 +45,8 @@
         <mxCell id="v0ZZHjk_V9ZdXcxPnaw8-16" value="@Address&lt;br&gt;* 这个库用来检查，某个地址是合约还是普通用户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="850" y="450" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="v0ZZHjk_V9ZdXcxPnaw8-17" value="@ERC721TokenReceiver&lt;br&gt;* 一个可以用来接收其他合约的合约" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1010" y="330" width="220" height="60" as="geometry" />
+        <mxCell id="v0ZZHjk_V9ZdXcxPnaw8-17" value="@ERC721TokenReceiver&lt;br&gt;* 一个用来标注可以用来接收其他合约的合约" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1060" y="40" width="220" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
