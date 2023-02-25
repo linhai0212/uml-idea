@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-25T13:03:03.895Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="hCzBzBxHFNkEic-QSi0m" version="20.8.21" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-25T13:27:22.824Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="tpr3Bcnf7chC7R0PUhXP" version="20.8.21" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1093" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -94,17 +94,32 @@
         <mxCell id="v0ZZHjk_V9ZdXcxPnaw8-27" value="PuzzleVault" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="460" y="950" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="v0ZZHjk_V9ZdXcxPnaw8-28" value="Lock1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="170" y="1100" width="120" height="60" as="geometry" />
+        <mxCell id="v0ZZHjk_V9ZdXcxPnaw8-28" value="Lock1NFT[MatchNumber]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="1100" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="v0ZZHjk_V9ZdXcxPnaw8-29" value="Lock2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="360" y="1100" width="120" height="60" as="geometry" />
+        <mxCell id="v0ZZHjk_V9ZdXcxPnaw8-29" value="Lock2NFT[MatchNumber]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="1100" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="v0ZZHjk_V9ZdXcxPnaw8-30" value="Lock3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="550" y="1100" width="120" height="60" as="geometry" />
+        <mxCell id="v0ZZHjk_V9ZdXcxPnaw8-30" value="Lock3NFT[MatchNumber]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="550" y="1100" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v0ZZHjk_V9ZdXcxPnaw8-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="v0ZZHjk_V9ZdXcxPnaw8-34" target="v0ZZHjk_V9ZdXcxPnaw8-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v0ZZHjk_V9ZdXcxPnaw8-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="v0ZZHjk_V9ZdXcxPnaw8-34" target="v0ZZHjk_V9ZdXcxPnaw8-36">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="v0ZZHjk_V9ZdXcxPnaw8-34" value="Numeric" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="740" y="1100" width="120" height="60" as="geometry" />
+          <mxGeometry x="827" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v0ZZHjk_V9ZdXcxPnaw8-36" value="Bomm&lt;br&gt;* 这个操作会变更某个Lock的兑换Num" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="910" y="1300" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v0ZZHjk_V9ZdXcxPnaw8-41" value="Unlock 兑换成某个LockNFT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="720" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v0ZZHjk_V9ZdXcxPnaw8-45" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="150" y="1290" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
