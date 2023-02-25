@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-25T03:32:50.082Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="OBkDhiJIlRcbOKUOGV5l" version="20.8.21" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-25T04:02:56.716Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="wLQWLGZECanqPzzbBH-g" version="20.8.21" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1093" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -36,8 +36,8 @@
         <mxCell id="v0ZZHjk_V9ZdXcxPnaw8-2" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;Multicall&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="540" y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="v0ZZHjk_V9ZdXcxPnaw8-12" value="@DefaultOperatorFilterer&lt;br&gt;* 版税处理模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="820" y="130" width="180" height="60" as="geometry" />
+        <mxCell id="v0ZZHjk_V9ZdXcxPnaw8-12" value="@DefaultOperatorFilterer&lt;br&gt;* 版税处理模块，这个工具的主要作用就是限制部分地址调用 NFT 的 transfer 操作。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="820" y="130" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="v0ZZHjk_V9ZdXcxPnaw8-13" value="@ERC721Enumerable&lt;br&gt;* 支持枚举所有资产的Erc721合约实现" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="820" y="210" width="250" height="60" as="geometry" />
