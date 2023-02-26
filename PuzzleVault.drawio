@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-26T10:43:19.024Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="_qdHnElq78m76lPnRCOZ" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-26T15:03:07.422Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="G549JLPWNprDvUjvAN4F" version="20.8.23" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1093" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -178,8 +178,8 @@
         <mxCell id="v0ZZHjk_V9ZdXcxPnaw8-58" value="&lt;div&gt;Harder /&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Easier&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;可以通过销毁Lock1产生一个新的Lock1难度，同样会生成一个新的LockNumber，或削减一个难度级别&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="650" y="1310" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="v0ZZHjk_V9ZdXcxPnaw8-60" value="这种模式在所有资金被别人取走后，LockNFT的持有者可以将手里的LockNFT&lt;br&gt;出售给项目方，从而重新启动，否则这个项目就有可能死在这里。&lt;br&gt;&lt;br&gt;1、Lock的初始难度都是一段也就是 1~200，每个Lock对应卡片 100 张。&lt;br&gt;2、初始3个Lock，难度分别是一段，两段，三段。&lt;br&gt;3、每次所有Lock被开启，就会新新增加一个Lock列，初始难度为，Lock的总量值。&lt;br&gt;4、Lock单独取款时单次可以取出Vault资金的 %50/Vault数量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="610" y="1425" width="470" height="110" as="geometry" />
+        <mxCell id="v0ZZHjk_V9ZdXcxPnaw8-60" value="这种模式在所有资金被别人取走后，LockNFT的持有者可以将手里的LockNFT&lt;br&gt;出售给项目方，从而重新启动，否则这个项目就有可能死在这里。&lt;br&gt;&lt;br&gt;1、Lock的初始难度一段也就是 1~200，每个Lock对应卡片 100 张。&lt;br&gt;2、初始3个Lock，难度分别是一段(1~200)，两段(200~400)，三段(300~500)以此类推。&lt;br&gt;3、每次所有Lock被开启，就会新新增加一个Lock列，初始难度为，Lock的总量值。&lt;br&gt;4、Lock单独取款时单次可以取出Vault资金的 %50/Vault数量&lt;br&gt;5、存放资金要分成两部分一部分是全奖励资金，另一部分是半奖励资金。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="600" y="1415" width="490" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
